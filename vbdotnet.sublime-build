@@ -1,0 +1,5 @@
+{
+	"shell_cmd": "vbc /nologo $file & $file_base_name.exe",
+	"selector": "source.vb",
+	"file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)"
+}
